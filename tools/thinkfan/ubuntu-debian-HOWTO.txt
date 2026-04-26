@@ -1,0 +1,13 @@
+#INSTALL (as root)
+echo "options thinkpad_acpi fan_control=1" >> /etc/modprobe.d/thinkpad.conf
+reboot
+apt install lm-sensors cmake-curses-gui libyaml-cpp-dev libboost-all-dev
+wget https://github.com/vmatare/thinkfan/archive/1.2.1.tar.gz
+tar xzvf 1.2.1.tar.gz
+cd thinkfan-1.2.1
+mkdir build; cd build
+cmake -D CMAKE_BUILD_TYPE:STRING=Debug ..
+make
+cp thinkfan /usr/local/sbin
+sudo systemctl enable thinkfan.service
+sudo systemctl start thinkfan.service

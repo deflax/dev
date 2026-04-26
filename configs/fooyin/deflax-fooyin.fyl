@@ -1,0 +1,144 @@
+{
+    "Name": "deflax-fooyin",
+    "Theme": "AAAAAQAAAAAAAAAA/////wAAAAAZAAAABQAAAAAB//////////8AAAAAAAEAAAAAAf//f39/f39/AAAAAAAFAAAAAQH//zU1NTU1NQAAAAAABQAAAAIB//9aWlpaWloAAAAAAAUAAAADAf//S0tLS0tLAAAAAAAFAAAABAH//yMjIyMjIwAAAAAABQAAAAUB//8tLS0tLS0AAAAAAAUAAAAGAf//AADGxgAAAAAAAAABAAAABgH//39/f39/fwAAAAAABQAAAAcB/////wAAAAAAAAAAAAUAAAAIAf//////////AAAAAAABAAAACAH//39/f39/fwAAAAAABQAAAAkB//8qKioqKioAAAAAAAUAAAAKAf//AAAAAAAAAAAAAAAFAAAACwH//xQUFBQUFAAAAAAABQAAAAwB//+EhAQE2dkAAAAAAAEAAAAMAf//UFBQUFBQAAAAAAAFAAAADQH//////////wAAAAAAAQAAAA0B//9/f39/f38AAAAAAAUAAAAOAf//hIQEBNnZAAAAAAAFAAAADwH//4SEBATZ2QAAAAAABQAAABAB//9CQkJCQkIAAAAAAAUAAAASAf//////////AAAAAAAFAAAAEwH//zU1NTU1NQAAAAAABQAAABQB//9/f39/f38AAAAAAAH/////AAAAFABTAGEAbgBzACAAUwBlAHIAaQBm/////0AsAAAAAAAA/////wUAAQGQEAAAAQAAAAAAAAAAAAAAAAABAAAAFABTAGEAbgBzACAAUwBlAHIAaQBm",
+    "Version": 1,
+    "Widgets": [
+        {
+            "SplitterVertical": {
+                "State": "AAAA/wAAAAEAAAADAAAANQAABM0AAAAaAP////8BAAAAAgA=",
+                "Widgets": [
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAAEAAAAggAAAEsAAAC/AAAGxgD/////AQAAAAEA",
+                            "Widgets": [
+                                {
+                                    "PlayerControls": {
+                                    }
+                                },
+                                {
+                                    "PlaylistControls": {
+                                    }
+                                },
+                                {
+                                    "VolumeControls": {
+                                        "Mode": 3
+                                    }
+                                },
+                                {
+                                    "SeekBar": {
+                                        "ElapsedTotal": true,
+                                        "ShowLabels": true
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAACAAAB3wAACAsA/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "SplitterVertical": {
+                                        "State": "AAAA/wAAAAEAAAADAAACyAAAACIAAAIEAP////8BAAAAAgA=",
+                                        "Widgets": [
+                                            {
+                                                "TabStack": {
+                                                    "Position": "North",
+                                                    "State": "Directory List\u001fSelection Info",
+                                                    "Widgets": [
+                                                        {
+                                                            "SplitterVertical": {
+                                                                "State": "AAAA/wAAAAEAAAABAAADFwD/////AQAAAAIA",
+                                                                "Widgets": [
+                                                                    {
+                                                                        "LibraryTree": {
+                                                                            "Grouping": 2,
+                                                                            "ID": "90994441d0c94d12a138fce161cc630f",
+                                                                            "State": "AAAAfHjaY2BgEKg90mV2dqLODhl7LrEJ37bsZWBgYAVigbZCEfF1e/Zf9G7PNyg6L1IMEtNTvMzdsrFJXKPYwkhynYgYSMw1SsJkwcRG/4uuyiyncqfUgMTeir3rzvm3N+I9s3b7py7+fyAxNzu3zbZLrfg69Xs9HUU10wDHECkT"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "SelectionInfo": {
+                                                                "Options": 23,
+                                                                "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcsAAAACAAAAAQAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAigAAAAEAAAAAAAABQQAAAAEAAAAAAAAD6AAAAABkAAAAAA=="
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "SearchBar": {
+                                                    "AutoSearch": false,
+                                                    "SearchMode": 0,
+                                                    "Widgets": "90994441d0c94d12a138fce161cc630f"
+                                                }
+                                            },
+                                            {
+                                                "TabStack": {
+                                                    "Position": "North",
+                                                    "State": "Artwork Panel\u001fLyrics",
+                                                    "Widgets": [
+                                                        {
+                                                            "ArtworkPanel": {
+                                                                "CoverAlignment": 132,
+                                                                "CoverType": 0,
+                                                                "KeepAspectRatio": true
+                                                            }
+                                                        },
+                                                        {
+                                                            "Lyrics": {
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "SplitterVertical": {
+                                        "State": "AAAA/wAAAAEAAAACAAAEEAAAALkA/////wEAAAACAA==",
+                                        "Widgets": [
+                                            {
+                                                "PlaylistTabs": {
+                                                    "Widgets": [
+                                                        {
+                                                            "Playlist": {
+                                                                "Columns": "8:132|3|0:2|1|7:2|2|5|11|12|18|22",
+                                                                "HeaderState": "AAAAxXjaY2Bg4GZgYDBmgIAABgamVCCdDMQngGxzIB0PxA1AHAvEBQwQ9SDACMSsQMwMxExAzAbEXEDMDsScQMwBxCwg9fYzN/ft4frxxP7KjYbdds8V7ZcYihyadkTP/rINa5H4vuX2Kzkf67lYPLDfqduaXlpSY3/xCHONSCaX/fKncra/3MrsN/B/kORqeWm/PHXtnPW7PO3XqDqliISWgxzA8B8IAGzNMA4=",
+                                                                "ID": "697af341576e475a8abd47b8908aedfd",
+                                                                "Preset": 0,
+                                                                "SingleMode": false
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "WaveBar": {
+                                                    "ElapsedTotal": false,
+                                                    "ShowLabels": false
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "StatusBar": {
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "WindowSize": {
+        "Height": 1361,
+        "Width": 2560
+    }
+}
