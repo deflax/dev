@@ -1,1 +1,1 @@
-A collection of files I have used for various tasks.
+A collection of configs, scripts, howtos and tools.
